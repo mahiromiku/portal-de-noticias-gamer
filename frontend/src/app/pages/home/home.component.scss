@@ -1,0 +1,24 @@
+@import "../../../scss/color/color";
+
+:host {
+  .home__content{
+    min-height: 100vh;
+    .banner{
+      position: relative;
+      width: 100%;
+      height: 15vh;
+      img{
+        object-fit: cover;
+      }
+    }
+    .presentation{
+      margin-top: 25px;
+      .container__presentation{
+        h2{
+          color: $secondary;
+          text-shadow: 2px 2px 0 $black;
+        }
+      }
+    }
+  }
+}

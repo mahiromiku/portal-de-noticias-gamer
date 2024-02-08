@@ -1,0 +1,35 @@
+<header>
+    <div class="container">
+        <h1 class="title">
+            <a routerLink="" (click)="setFirstPage()">MahiroGamer<span>News</span></a>
+        </h1>
+        <div class="open-menu" (click)="nav.set('open')">
+            <img src="assets/svg/menu.svg" alt="menu">
+        </div>
+        <nav class="menu" [@move-menu]="nav()">
+            <div class="close-menu" (click)="nav.set('close')">
+                <img src="assets/svg/close_menu.svg" alt="close">
+            </div>
+            <ul>
+                <li>
+                    <a routerLink="" (click)="setFirstPage(); nav.set('close')">Página inicial</a>
+                </li>
+                @if(isLogged()){
+                    <li>
+                        <a routerLink="publicar" (click)="nav.set('close')">Publicar</a>
+                    </li>
+                    <li>
+                        <a routerLink="" (click)="logout(); nav.set('close')">Sair</a>
+                    </li>
+                }@else{
+                    <li>
+                        <a routerLink="entrar" (click)="nav.set('close')">Entrar</a>
+                    </li>
+                    <li>
+                        <a routerLink="cadastrar" (click)="nav.set('close')">Cadastrar</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+</header>

@@ -1,0 +1,29 @@
+<header>
+    <div class="container">
+        <h1 class="title">
+            <a routerLink="" (click)="setFirstPage()">MahiroGamer<span>News</span></a>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a routerLink="" (click)="setFirstPage()">Página inicial</a>
+                </li>
+                @if(isLogged()){
+                    <li>
+                        <a routerLink="publicar">Publicar</a>
+                    </li>
+                    <li>
+                        <a routerLink="" (click)="logout()">Sair</a>
+                    </li>
+                }@else{
+                    <li>
+                        <a routerLink="entrar">Entrar</a>
+                    </li>
+                    <li>
+                        <a routerLink="cadastrar">Cadastrar</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+</header>

@@ -1,0 +1,19 @@
+:host {
+  section{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    article{
+      h2, p{
+        text-align: center
+      }
+      h2{
+        font-size: 48px;
+      }
+      p{
+        font-size: 30px;
+      }
+    }
+  }
+}

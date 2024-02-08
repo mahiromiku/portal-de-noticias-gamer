@@ -1,0 +1,15 @@
+@import "../../../../scss/color/color";
+
+:host {
+  footer{
+    margin-top: 25px;
+    background: $black;
+    padding: 10px 0;
+    width: 100%;
+    .container{
+      p{
+        text-align: center;
+      }
+    }
+  }
+}

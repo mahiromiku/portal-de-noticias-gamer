@@ -1,0 +1,56 @@
+@import "../../../../scss/color/color";
+
+:host {
+  header{
+    background: $secondary;
+    padding: 10px 0;
+    .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media (max-width: 500px){
+        flex-direction: column;
+      }
+      .title{
+        margin: 0;
+        padding: 0;
+        @media (max-width: 500px){
+          font-size: 25px;
+        }
+        a{
+          text-shadow: 2px 2px 0 $black;
+          span{
+            color: $secondary-002;
+          }
+        }
+      }
+      nav{
+        ul{
+          display: flex;
+          gap: 15px;
+          @media (max-width: 500px){
+            margin: 10px 0;
+          }
+          li{
+            list-style: none;
+            a{
+              text-shadow: 2px 2px 0 $black;
+              font-weight: 900;
+              padding: 10px 20px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              &:hover{
+                background: $secondary-002;
+              }
+              img{
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "cards": [
+    {
+      "title": "Clássico dos anos 90 retorna: Remake de 'Super Mario 64' encanta fãs",
+      "subtitle": "A Nintendo anuncia uma versão modernizada do icônico jogo de plataforma",
+      "img": "http://localhost:3000/file/mario-64.png",
+      "content": "A gigante dos videogames, Nintendo, surpreende os fãs com o anúncio de um remake do clássico 'Super Mario 64'. Gráficos aprimorados e novos recursos prometem trazer uma experiência nostálgica aos jogadores.",
+      "id": 1,
+      "comments": []
+    },
+    {
+      "title": "Atari relança console clássico com uma reviravolta moderna",
+      "subtitle": "O Atari VCS chega ao mercado, combinando jogos retrô com tecnologia contemporânea",
+      "img": "http://localhost:3000/file/atari.png",
+      "content": "A lendária empresa de videogames Atari lança o VCS, uma reinvenção do clássico console. Compatível com títulos antigos e novos, o VCS visa atrair tanto os fãs antigos quanto uma nova geração de jogadores.",
+      "id": 2
+    },
+    {
+      "title": "Comemorando 30 anos: 'The Legend of Zelda' ganha edição especial",
+      "subtitle": "A Nintendo lança uma edição limitada do jogo que marcou gerações de jogadores",
+      "img": "http://localhost:3000/file/zelda.png",
+      "content": "Em homenagem ao trigésimo aniversário de 'The Legend of Zelda', a Nintendo lança uma edição especial do jogo, incluindo itens colecionáveis e uma trilha sonora remasterizada, levando os fãs em uma jornada nostálgica.",
+      "id": 3
+    },
+    {
+      "title": "Sega revela projeto secreto: 'Sonic the Hedgehog' de volta às raízes",
+      "subtitle": "A empresa japonesa anuncia um novo jogo do ouriço azul, resgatando a essência dos clássicos",
+      "img": "http://localhost:3000/file/sonic.png",
+      "content": "A Sega surpreende os fãs com um projeto secreto: um novo jogo do Sonic que retorna às raízes da franquia. Gráficos 2D, velocidade vertiginosa e trilha sonora nostálgica estão entre os destaques.",
+      "id": 4,
+      "comments": [
+        {
+          "user": "qualquercoisa",
+          "img": "http://localhost:3000/file/Captura de tela 2023-12-30 020318.png",
+          "message": "Eu achei mt massa essa noticia"
+        },
+        {
+          "user": "qualquercoisa",
+          "img": "http://localhost:3000/file/Captura de tela 2023-12-30 020318.png",
+          "message": "Faça mais"
+        },
+        {
+          "user": "jason123",
+          "img": "http://localhost:3000/file/Captura de tela 2024-01-09 002844.png",
+          "message": "Realmente muito show"
+        }
+      ]
+    },
+    {
+      "title": "Coleção 'Final Fantasy' remasterizada para plataformas modernas",
+      "subtitle": "Os clássicos RPGs da Square Enix ganham uma versão remasterizada com gráficos aprimorados",
+      "img": "http://localhost:3000/file/final-fantasy.png",
+      "content": "A Square Enix anuncia uma coleção remasterizada da série 'Final Fantasy' para os consoles modernos. Os fãs poderão reviver as emocionantes histórias e personagens que marcaram época.",
+      "id": 5
+    },
+    {
+      "title": "Nintendo lança Mini Game Boy: Uma homenagem aos anos 90",
+      "subtitle": "A empresa japonesa apresenta uma versão compacta da icônica Game Boy",
+      "img": "http://localhost:3000/file/gameboy.png",
+      "content": "A Nintendo surpreende os entusiastas com o lançamento da Mini Game Boy, uma versão portátil da clássica console. Com uma seleção de jogos pré-instalados, é a oportunidade perfeita para reviver a era dourada dos jogos portáteis.",
+      "id": 6
+    },
+    {
+      "title": "Novo documentário explora o impacto cultural de 'Pac-Man'",
+      "subtitle": "Produção audiovisual destaca o legado duradouro do famoso jogo de arcade",
+      "img": "http://localhost:3000/file/pacman.png",
+      "content": "Um documentário inovador, intitulado 'Pac-Man: Uma História Incontornável', é lançado, mergulhando nos bastidores da criação e no impacto cultural do clássico jogo de arcade que se tornou um fenômeno global.",
+      "id": 7
+    },
+    {
+      "title": "RPG clássico 'Chrono Trigger' ganhará uma sequência",
+      "subtitle": "Square Enix confirma o desenvolvimento de 'Chrono Resurgence'",
+      "img": "http://localhost:3000/file/chronotrigger.png",
+      "content": "Os fãs de 'Chrono Trigger' têm motivos para comemorar, já que a Square Enix anuncia oficialmente o desenvolvimento de 'Chrono Resurgence', uma aguardada sequência do amado RPG que marcou os anos 90.",
+      "id": 8
+    },
+    {
+      "title": "Atari anuncia competição mundial de 'Space Invaders'",
+      "subtitle": "Os jogadores de todo o mundo competirão pelo título de mestre do clássico arcade",
+      "img": "http://localhost:3000/file/space-invaders.png",
+      "content": "A Atari lança uma competição global de 'Space Invaders', onde jogadores de diferentes partes do mundo terão a chance de provar suas habilidades no icônico jogo de tiro espacial.",
+      "id": 9
+    },
+    {
+      "title": "Evento especial celebra 25 anos de 'Street Fighter II'",
+      "subtitle": "Capcom organiza torneios e lançamentos exclusivos para marcar o aniversário do clássico de luta",
+      "img": "http://localhost:3000/file/street-fighters.png",
+      "content": "A Capcom comemora os 25 anos de 'Street Fighter II' com um evento especial, incluindo torneios competitivos, lançamento de produtos exclusivos e uma retrospectiva da influência duradoura do jogo no cenário dos jogos de luta.",
+      "id": 10
+    },
+    {
+      "title": "Revival inesperado: 'Metroid' ganhará um título inédito para o NES",
+      "subtitle": "A Nintendo surpreende os fãs ao anunciar um novo jogo para o clássico Nintendo Entertainment System",
+      "img": "http://localhost:3000/file/metroid.png",
+      "content": "Em uma jogada surpreendente, a Nintendo revela planos para lançar um novo jogo da série 'Metroid' exclusivamente para o NES, mergulhando os jogadores de volta à atmosfera única do clássico de ficção científica.",
+      "id": 11
+    },
+    {
+      "title": "Comemorando 20 anos de 'Pokémon Gold & Silver' com edição limitada",
+      "subtitle": "Nintendo lança uma versão especial do clássico RPG de Pokémon para o Nintendo Switch",
+      "img": "http://localhost:3000/file/pokemon-gold-silver.png",
+      "content": "Em celebração ao vigésimo aniversário de 'Pokémon Gold & Silver', a Nintendo lança uma edição limitada do jogo para o Nintendo Switch, oferecendo uma experiência nostálgica para os fãs da franquia.",
+      "id": 12
+    },
+    {
+      "title": "Capcom ressuscita 'Mega Man X' com coleção remasterizada",
+      "subtitle": "Os fãs do robô azul terão a oportunidade de reviver os clássicos da série com gráficos atualizados",
+      "img": "http://localhost:3000/file/megamanx.png",
+      "content": "A Capcom anuncia uma coleção remasterizada de 'Mega Man X', trazendo de volta os emocionantes títulos da série com gráficos aprimorados e recursos adicionais para os jogadores modernos.",
+      "id": 13
+    },
+    {
+      "title": "Clássico esquecido: 'Earthbound' recebe relançamento para consoles atuais",
+      "subtitle": "A cultuada jornada de Ness e seus amigos retorna para cativar uma nova geração de jogadores",
+      "img": "http://localhost:3000/file/EarthBound.png",
+      "content": "A Nintendo surpreende os fãs ao relançar 'Earthbound' para consoles atuais, oferecendo uma oportunidade para os jogadores mais jovens explorarem o encantador mundo RPG que conquistou corações nos anos 90.",
+      "id": 14
+    },
+    {
+      "title": "Novo livro revela os bastidores do desenvolvimento de 'Castlevania: Symphony of the Night'",
+      "subtitle": "Autor compartilha histórias inéditas sobre a criação do clássico jogo de plataforma",
+      "img": "http://localhost:3000/file/castlevania-symphony.png",
+      "content": "Um autor renomado lança um livro revelador sobre os bastidores do desenvolvimento de 'Castlevania: Symphony of the Night', proporcionando insights exclusivos sobre a criação de um dos jogos mais aclamados da era dos 32 bits.",
+      "id": 15
+    },
+    {
+      "title": "Resgate da era 8 bits: 'Legend of Zelda' ganha versão para dispositivos móveis",
+      "subtitle": "Nintendo lança adaptação do clássico de aventura para cativar jogadores em plataformas móveis",
+      "img": "http://localhost:3000/file/Novo-Zelda.png",
+      "content": "Em uma jogada inovadora, a Nintendo anuncia o lançamento de 'The Legend of Zelda: Retro Quest' para dispositivos móveis, proporcionando aos jogadores a chance de embarcar na jornada de Link nos moldes dos consoles de 8 bits.",
+      "id": 16
+    },
+    {
+      "title": "Celebração pixelizada: 'Super Mario Bros.' ganha curta-metragem animado em estilo retrô",
+      "subtitle": "Animação nostálgica homenageia os 35 anos do icônico encanador bigodudo",
+      "img": "http://localhost:3000/file/mario-nes.png",
+      "content": "A Nintendo surpreende os fãs com o lançamento de um curta-metragem animado em pixel art, celebrando os 35 anos de 'Super Mario Bros.'. A produção revive momentos clássicos do jogo em uma homenagem tocante ao legado duradouro de Mario.",
+      "id": 17
+    }
+  ],
+  "cadastros": [
+    {
+      "img": "http://localhost:3000/file/Captura de tela 2023-12-30 020318.png",
+      "email": "lucas.dev@gmail.com",
+      "user": "qualquercoisa",
+      "password": "Qualquercoisa123#",
+      "id": 1
+    },
+    {
+      "img": "http://localhost:3000/file/Captura de tela 2024-01-09 002844.png",
+      "email": "jason@gmail.com",
+      "user": "jason123",
+      "password": "Jason123#",
+      "id": 2
+    }
+  ]
+}

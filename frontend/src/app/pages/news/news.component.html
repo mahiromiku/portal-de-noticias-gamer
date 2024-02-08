@@ -1,0 +1,37 @@
+<section class="news">
+    @defer (on timer(1500)) {
+    <div class="img-wrapper">
+        <img [ngSrc]="card()!.img" [alt]="card()?.title" fill>
+    </div>
+    <div class="container container__news">
+        <header>
+            <h2 class="title">{{card()?.title}}</h2>
+            <h3 class="subtitle">{{card()?.subtitle}}</h3>
+        </header>
+        <p>{{card()?.content}}</p>
+    </div>
+    <div class="container__comments container">
+        <h2>Comentários</h2>
+        <form class="comment__field" [formGroup]="sendMessage" (ngSubmit)="submit()">
+            <textarea name="message" placeholder="Deixe seu comentário" formControlName="message"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        @for(comment of card()?.comments; track comment){
+            <article class="message__field">
+                <div class="single__message">
+                    @if(viewDeleteButton(comment.user)){
+                        <img (click)="delete(comment.message, comment.user)" class="close" src="assets/svg/close.svg" alt="close">
+                    }
+                    <div class="user__container">
+                        <span class="name">{{comment.user}}</span>
+                        <img src="{{comment.img}}" alt="icon">
+                    </div>
+                    <div class="message__content">{{comment.message}}</div>
+                </div>
+            </article>
+        }
+    </div>
+    }@placeholder {
+        <app-loading></app-loading>
+    }
+</section>

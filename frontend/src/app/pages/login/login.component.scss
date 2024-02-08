@@ -1,0 +1,35 @@
+@import "../../../scss/color/color";
+
+:host {
+  .container{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    form{
+      color: $black;
+      background-color: $white;
+      box-shadow: 4px 4px 4px $black-001;
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      padding: 40px 60px;
+      h2{
+        text-align: center;
+      }
+      input{
+        outline: 0;
+        line-height: 30px;
+        padding: 0 10px;
+      }
+      input[type=submit]{
+        cursor: pointer;
+        background: $button;
+        color: $white;
+        text-shadow: 2px 2px 0 $black-001;
+        border: 0;
+      }
+    }
+  }
+}

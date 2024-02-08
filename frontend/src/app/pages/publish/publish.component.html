@@ -1,0 +1,19 @@
+<section class="container">
+    <form #publish [formGroup]="publishForm" (ngSubmit)="submit()" enctype="multipart/form-data">
+        <h2>Crie sua notícia</h2>
+        <label for="title">Titulo</label>
+        <input id="title" type="text" formControlName="title">
+        <label for="subtitle">Subtitulo</label>
+        <input id="subtitle" type="text" formControlName="subtitle">
+        <label for="img">Imagem</label>
+        <input type="file" id="img" formControlName="img" name="file" (change)="onselectFile($event)">
+        @if(url()){
+            <div class="img-wrapper">
+                <img [src]="url()" fill><br>
+            </div>
+        }
+        <label for="content">Conteúdo</label>
+        <textarea id="content" formControlName="content"></textarea>
+        <input type="submit" value="Enviar" (click)="uploadFile()">
+    </form>
+</section>

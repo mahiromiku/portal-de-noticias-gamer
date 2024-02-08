@@ -1,0 +1,28 @@
+@defer(on timer(2000ms)){
+    <section class="cards__content">
+        <div #carousel class="container container__cards">
+            @for (card of getCardsForEachPagination(); track card) {
+                <a [routerLink]="'noticias/'+card.id">
+                    <article class="card">
+                        <header>
+                            <h2>{{card.title}}</h2>
+                            <h3>{{card.subtitle}}</h3>
+                        </header>
+                        <div class="img-wrapper">
+                            <img [ngSrc]="card.img" [alt]="card.title" fill>
+                        </div>
+                    </article>
+                </a>
+            }
+        </div>
+        <nav class="container pagination">
+            <ul>
+                @for(page of getPageNumberList(); track page){
+                    <li><a [routerLink]="'pagina/'+page" (click)="setActualPage(page)">{{page}}</a></li>
+                }
+            </ul>
+        </nav>
+    </section> 
+}@placeholder {
+    <app-loading></app-loading>
+}

@@ -1,0 +1,105 @@
+@import "../../../scss/color/color";
+
+:host {
+  .news{
+    min-height: 100vh;
+    .img-wrapper{
+      position: relative;
+      width: 100%;
+      height: 250px;
+      box-shadow: 0 6px 12px $black;
+      img{
+        object-fit: cover;
+      }
+    }
+    .container__news{
+      header{
+        h2, h3{
+          text-align: center;
+        }
+        h2{
+          margin-top: 25px;
+          font-size: 40px;
+          color: $secondary-002;
+          text-shadow: 2px 2px 0 $black;
+        }
+        h3{
+          margin: 10px 0;
+          font-size: 25px;
+          font-weight: 400;
+          text-shadow: 2px 2px 0 $black;
+        }
+      }
+    }
+    .container__comments{
+      background: $background-transparent;
+      margin-top: 25px;
+      padding: 25px;
+      h2{
+        text-shadow: 2px 2px 0 $black;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      .comment__field{
+        width: 100%;
+        display: flex;
+        textarea{
+          outline: none;
+          resize: none;
+          height: 50px;
+          width: 100%;
+          line-height: 25px;
+          padding: 10px 20px;
+        }
+        input[type=submit]{
+          border: 0;
+          padding: 8px 16px;
+          background: $button;
+          color: $white;
+          font-weight: 700;
+          text-shadow: 1px 1px 0 $black-001;
+        }
+      }
+      .message__field{
+        margin-top: 25px;
+        .single__message{
+          background: $comment;
+          box-shadow: 2px 2px 2px $black;
+          padding: 10px 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+          position: relative;
+          .close{
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+          }
+          .message__content{
+            padding: 10px 25px;
+            text-align: justify;
+            align-self: flex-start;
+          }
+          .user__container{
+            background: $comment-001;
+            padding: 15px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            width: 100%;
+            img{
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
