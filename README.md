@@ -6,4 +6,4 @@ Eu usei dois backends para prover informações para minha plataforma. Um deles 
 Outro para subir as imagens das notícias e dos usuários com o modulo multer do Node.
 
 ### Como conferir o projeto?
-Para cada pasta do repositório (api, backend, front) é preciso executar no terminal o comando GIT INIT, em seguida NPM START.
+Para cada pasta do repositório (api, backend, front) é preciso executar no terminal o comando NPM I, em seguida NPM START.
